@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin: 10px 20px 30px 40px;
+    /* How to check what you're formatting
+    border: solid red 5px; */
+}
+
+.example{
+    font-size: 1.2em;
+    color: purple;
+}
+
+#french{
+    color: blue;
+}
+
+body{
+    background-color: lightblue;
+    color: rgb(4, 11, 104);
+    /* fonts to use as backups*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    color: #ff0000
+}
+
+.box-1{
+    background-color: tomato;
+    padding: 0% 20%;
+}
+
+.box-2{
+    background-color: lemonchiffon;
+    padding: 0% 20%;
+
+    border-top: 5px red solid;
+    border-bottom:5px #ff0000 dotted;
+    border-left: 10px rgb(4, 11, 104) dashed;
+    border-right: 15px teal dashed;
+}
+
+ul{
+    width: 300px;
+}
