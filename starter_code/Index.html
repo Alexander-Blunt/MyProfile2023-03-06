@@ -1,42 +1,47 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title>My Profile</title>
     <meta name="author" content="A. Trainer" />
     <meta name="description" content="This is a wonderful web page" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="profileStyle.css" rel="stylesheet"/>
+    <link href="profileStyle.css" rel="stylesheet" />
 </head>
+
 <body class="container">
     <nav>
-        <ul>
+        <ul class="flex-container">
             <li><a href="index.html">Go to profile</a></li>
             <li><a href="projects.html">Go to projects</a></li>
             <li><a href="https://www.linkedin.com/" target="_blank">My LinkedIn</a></li>
         </ul>
     </nav>
     <header>
-        <img alt="My picture" src="images/profilepic.jpg" width="200px">
+        <div class="flex-container">
+            <img alt="My picture" src="images/profilepic.jpg" width="200px">
+        </div>
         <h1>Anthony Trainer</h1>
         <h2>My Profile</h2>
         <p>An <em>awesome</em> and <strong>amazing</strong> website demonstration</p>
     </header>
-
-    <section class="box-1">
-        <h4>My Skills</h4>
-        <p>Agile, Scrum and similar methodologies</p>
-        <p>Cooking up sweet code</p>
-    </section>
-    <section>
-        <h4>My Hobbies</h4>
-        <ul>
-            <li id="french">French</li>
-            <li class="example">Video Games</li>
-            <li>Hiking</li>
-        </ul>
-    </section>
+    <div class="flex-container">
+        <section class="box-1">
+            <h4>My Skills</h4>
+            <p>Agile, Scrum and similar methodologies</p>
+            <p>Cooking up sweet code</p>
+        </section>
+        <section>
+            <h4>My Hobbies</h4>
+            <ul>
+                <li id="french">French</li>
+                <li class="example">Video Games</li>
+                <li>Hiking</li>
+            </ul>
+        </section>
+    </div>
     <section class="box-1">
         <h4>Goals</h4>
         <ol>
@@ -54,7 +59,8 @@
         </form>
     </section>
     <footer>
-        <small>Copyright &#169; Sparta Global 2023 <cite>by A. Trainer</cite></small>       
+        <small>Copyright &#169; Sparta Global 2023 <cite>by A. Trainer</cite></small>
     </footer>
 </body>
+
 </html>
